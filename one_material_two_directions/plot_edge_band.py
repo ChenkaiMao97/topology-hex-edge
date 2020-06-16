@@ -24,8 +24,8 @@ for k in range(int(sys.argv[1])+2):
 plt.figure()
 
 plt.plot(x_axis,te_bands,'r.', markersize=1)
-plt.savefig('./figures/'+'n_cen_4100'+'n_diff_200/te.png',
-			dpi=300)
+plt.savefig('./te.png', dpi=300)
+
 plt.show()
 
 
